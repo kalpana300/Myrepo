@@ -1,0 +1,11 @@
+
+<suite name="Suite">
+<Parameter name="url" value="https://www.magento.com"></Parameter>
+<Parameter name="email" value="kalpanamkoti@gmail.com"></Parameter>
+<Parameter name="password" value="WelCome@123"></Parameter>
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="Com.abc.TestNG.Demo5"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
